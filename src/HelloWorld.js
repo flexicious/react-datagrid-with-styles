@@ -5,7 +5,7 @@ import { CssStyles, ApiStyles } from './base-adapter'
 function HelloWorld() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <h1>Hello World = React DataGrid with embedded styles [No dependency on flexicious-react-datagrid-styles]!</h1>
       <ReactDataGrid styles={ApiStyles.getThemeStyles('officeblue')} width={"100%"} editable dataProvider={[{ label: "Company A", state: "NJ", rank: "1.11" },
       { label: "Company B", state: "PA", rank: "11.1" },
       { label: "Company C", state: "CT", rank: "-111" },
